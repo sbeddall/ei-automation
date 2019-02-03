@@ -2,7 +2,7 @@
 
 Based off an input excel sheet, generates an `xlsx` as required for industry-specific use. 
 
-### Usage: 
+### Usage
 
 1. Install [Python](https://www.python.org/downloads/)
     * Make certain that the `Install to Path` checkbox available during the installation is **checked**. 
@@ -12,6 +12,10 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 5. In the command line, run the following command `python generate_excel.py`
 	* As a **one-time** step before running this script for the first time, you need to run the following command on the command line `pip install openpyxl`
 6. Next version
+
+### Results
+
+![generated excel](example.png "Generated Excel")
 
 ### Compatibility
 
