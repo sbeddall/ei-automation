@@ -122,7 +122,7 @@ def write_expected_stations(stations):
         for index, m in enumerate(range(start, end)):
             y = index + 3
             s_c(ws, 9 * N + 1, y, M_RAIL_ROW_TEMPLATE.format(N, m), left_thick)
-            s_c(ws, 9 * N + 5, y, M_RAIL_ROW_TEMPLATE.format(N, m))
+            s_c(ws, 9 * N + 5, y, S_RAIL_ROW_TEMPLATE.format(N, m))
 
             s_c(ws, 9 * N + 8, y, '', right_thick)
 
