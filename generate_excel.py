@@ -28,7 +28,6 @@ def parse_expected_stations():
     input_ws = template_wb["UI"]
     stations = []
 
-    # station id
     ids = [input_ws.cell(column=TEMPLATE_STATION_ID_COLUMN_NUMBER, row=i).value 
            for i in range(STATION_DATA_ROW_START_NUMBER,MAX_STATION_NUMBER) 
            if input_ws.cell(column=TEMPLATE_STATION_END_VAL_COLUMN_NUMBER, row=i).value is not None]
@@ -49,8 +48,9 @@ def parse_expected_stations():
             """.format(len(ids), len(start_numbers), len(end_numbers)))
         exit(1)
 
-    # we have checked equality, so we're good to slam these bitches together to get tuples
+    # we have checked equality, so we're good to slam these arrays together to get tuples
     for _id, start, end in zip(ids, start_numbers, end_numbers):
+        # just in case someone derped and reversed which was which for start and end
         if start > end:
             stations.append((_id, end, start))
         else:
@@ -67,6 +67,7 @@ def s_c(ws, x, y, val, border = None, shading = None):
     if shading is not None:
         ws.cell(row=y, column=x).fill = shading
 
+    # hack, don't feel like adding a parameter for style
     if y == 1 and val:
         ws.cell(row=y, column=x).style = 'Headline 1'
 
@@ -121,9 +122,7 @@ def write_expected_stations(stations):
         # insert station row templates between start and end indexes
         for index, m in enumerate(range(start, end)):
             y = index + 3
-            # write m rail measurement title
             s_c(ws, 9 * N + 1, y, M_RAIL_ROW_TEMPLATE.format(N, m), left_thick)
-            # write s rail measurement title
             s_c(ws, 9 * N + 5, y, M_RAIL_ROW_TEMPLATE.format(N, m))
 
             s_c(ws, 9 * N + 8, y, '', right_thick)
