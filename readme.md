@@ -11,7 +11,7 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 4. Open up a command line window, `cd` to the directory containing both the template and the python script.
 5. In the command line, run the following command `python generate_excel.py`
 	* As a **one-time** step before running this script for the first time, you need to run the following command on the command line `pip install openpyxl`
-6. Next version
+6. Look in the folder alongside the script. There will be a `generated_xxxx` file that contains the templates.
 
 ### Results
 
