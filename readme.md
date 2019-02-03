@@ -6,7 +6,6 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 
 1. Install [Python](https://www.python.org/downloads/)
     * Make certain that the `Install to Path` checkbox available during the installation is **checked**. 
-2. Grab the `generate_excel.py` script and the `template.xlsx` files I've attached alongside this mail.
 3. To generate an excel sheet, update the template excel (`User Input` sheet) to the station numbers you want. 
 4. Open up a command line window, `cd` to the directory containing both the template and the python script.
 5. In the command line, run the following command `python generate_excel.py`
