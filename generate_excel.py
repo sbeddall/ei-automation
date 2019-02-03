@@ -23,7 +23,6 @@ S_RAIL_TITLE = 'S Rail'
 M_RAIL_ROW_TEMPLATE = 'ST{0}_M_{1:02d}'
 S_RAIL_ROW_TEMPLATE = 'ST{0}_S_{1:02d}'
 
-# return type [tuple(id, start, end)] 
 def parse_expected_stations():
     template_wb = load_workbook(TEMPLATE_EXCEL)
     input_ws = template_wb["UI"]
