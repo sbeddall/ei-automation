@@ -56,7 +56,6 @@ def parse_expected_stations():
         else:
             stations.append((_id, start, end))
         
-
     return stations
 
 # set cell
