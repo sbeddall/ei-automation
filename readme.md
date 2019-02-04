@@ -20,4 +20,4 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 
 Python 3.7+. My users install latest Python as required. Not worth to maintain back-compat.
 
-![generated excel](http://www.google-analytics.com/__utm.gif?utmwv=5.3.8utms=1&utmn=1894752493&utmhn=github.com%2Fsbeddall%2Fei-automation&utmul=en-us&utmac=UA-296882-1 "Generated Excel")
+![Tracking](https://plyagroundstorage.blob.core.windows.net/tracking/pixel.png?ei-automation%2Freadme "Tracking")
