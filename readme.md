@@ -19,3 +19,6 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 ### Compatibility
 
 Python 3.7+. My users install latest Python as required. Not worth to maintain back-compat.
+
+
+<img src="http://www.google-analytics.com/__utm.gif?utmwv=5.3.8utms=1&utmn=1894752493&utmhn=github.com%2Fsbeddall%2Fei-automation&utmul=en-us&utmac=UA-296882-1" height="1" width="1">
