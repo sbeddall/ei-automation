@@ -20,5 +20,5 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 
 Python 3.7+. My users install latest Python as required. Not worth to maintain back-compat.
 
-![Tracking](https://plyagroundstorage.blob.core.windows.net/tracking/kitteh_small.png?ei-automation%2Freadme "Tracking")
-![Tracking](https://plyagroundstorage.blob.core.windows.net/tracking/pixel.png?ei-automation%2Freadme "Tracking")
+![Tracking](https://trackingexperiment.azurewebsites.net/api/TrackRequest?code=mqopEjvoGwalhaCnNm4a04P9zSk3z3nb5skyN483Qr0QV77ZPbSxaQ==&path=github.com%2FAzure%2Fazure-sdk-for-python%2Ftree%2Fmaster%2Fazure-cognitiveservices-search-customimagesearch%0D%0A%0D%0A "Tracking")
+
