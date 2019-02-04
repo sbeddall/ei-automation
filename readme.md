@@ -19,16 +19,3 @@ Based off an input excel sheet, generates an `xlsx` as required for industry-spe
 ### Compatibility
 
 Python 3.7+. My users install latest Python as required. Not worth to maintain back-compat.
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133754601-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-133754601-1');
-</script>
-
-<!-- End Google Analytics -->
