@@ -22,3 +22,11 @@ Python 3.7+. My users install latest Python as required. Not worth to maintain b
 
 ![Tracking](https://trackingexperiment.azurewebsites.net/api/TrackRequest?code=mqopEjvoGwalhaCnNm4a04P9zSk3z3nb5skyN483Qr0QV77ZPbSxaQ==&path=github.com%2FAzure%2Fazure-sdk-for-python%2Ftree%2Fmaster%2Fazure-cognitiveservices-search-customimagesearch%0D%0A%0D%0A "Tracking")
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133754601-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133754601-1');
+</script>
