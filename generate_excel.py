@@ -56,6 +56,7 @@ def parse_expected_stations():
         else:
             stations.append((_id, start, end))
         
+    print(stations)
     return stations
 
 # set cell
@@ -104,7 +105,7 @@ def write_expected_stations(stations):
         # all formulas are written in x, y format, including cell() calls
         # insert station header
         # 0N + 1, row = 1
-        s_c(ws, 9 * N + 1, 1, STATION_TITLE_TEMPLATE.format(N), left_thick)
+        s_c(ws, 9 * N + 1, 1, STATION_TITLE_TEMPLATE.format(station_id), left_thick)
         s_c(ws, 9 * N + 8, 1, '', right_thick)
 
         # insert column headers, row = 2
@@ -119,7 +120,7 @@ def write_expected_stations(stations):
 
         # row = 3 + index
         # insert station row templates between start and end indexes
-        for index, m in enumerate(range(start, end)):
+        for index, m in enumerate(range(start, end + 1)):
             y = index + 3
             s_c(ws, 9 * N + 1, y, M_RAIL_ROW_TEMPLATE.format(N, m), left_thick)
             s_c(ws, 9 * N + 5, y, S_RAIL_ROW_TEMPLATE.format(N, m))
